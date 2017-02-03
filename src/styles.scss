@@ -1,7 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* Include Google Fonts I am using */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Rokkitt:400,700');
 
+/* General Styles */
 body {
   margin-top: 70px; // Moves page down to make space for sticky top navbar
 }
 
+
+/* Import by type */
 @import "scss-parts/typography";
