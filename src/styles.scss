@@ -1,3 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+body {
+  margin-top: 70px; // Moves page down to make space for sticky top navbar
+}
 
+@import "scss-parts/typography";
