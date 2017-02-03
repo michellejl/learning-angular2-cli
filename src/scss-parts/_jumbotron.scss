@@ -1,0 +1,11 @@
+.jumbotron {
+  background: $dark-primary-color;
+  background-image: url("/assets/images/bottom-of-jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 150px;
+  h1 {
+    color: $light-text;
+  }
+
+}

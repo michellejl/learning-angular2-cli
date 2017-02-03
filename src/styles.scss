@@ -8,4 +8,7 @@ body {
 
 
 /* Import by type */
+@import "scss-parts/variables";
 @import "scss-parts/typography";
+
+@import "scss-parts/jumbotron";

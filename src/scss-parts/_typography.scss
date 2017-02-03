@@ -1,6 +1,8 @@
 * {
-  font-family: 'Rokkitt', serif;
+  font-family: $primary-font;
+  color: $primary-text;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: $header-font;
+  color: $accent-color;
 }
