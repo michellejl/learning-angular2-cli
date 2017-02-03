@@ -1,4 +1,4 @@
-/* Include Google Fonts I am using */
+/* Include Fonts */
 @import url('https://fonts.googleapis.com/css?family=Poiret+One|Rokkitt:400,700');
 
 /* General Styles */
@@ -10,5 +10,9 @@ body {
 /* Import by type */
 @import "scss-parts/variables";
 @import "scss-parts/typography";
+@import "scss-parts/images";
 
 @import "scss-parts/jumbotron";
+@import "scss-parts/basic-facts";
+@import "scss-parts/footer";
+

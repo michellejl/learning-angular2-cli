@@ -1,0 +1,12 @@
+footer {
+  background-color: $dark-primary-color;
+  background-image: url("./assets/images/top-of-footer.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  p, a, a:hover {
+    color: $light-text;
+  }
+
+}
