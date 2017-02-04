@@ -1,3 +1,18 @@
-<p>
-  skills works!
-</p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 text-center">{{title}}</h1>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row" id="skills">
+    <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let skill of skills_featured">
+      <h4>{{ skill.title }}</h4>
+      <p>{{ skill.description }}</p>
+    </div>
+  </div>
+
+
+
+</div><!-- /.container -->
