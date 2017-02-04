@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 
 import { routing } from './app.routing';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
