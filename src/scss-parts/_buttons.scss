@@ -1,5 +1,9 @@
 .btn-outline-primary {
   border-color: $accent-color;
   color: $accent-color;
-  margin: 0 15px;
+  margin: 15px 15px 0;
+  &:hover {
+    background-color: $accent-color;
+    border-color: $accent-color;
+  }
 }
